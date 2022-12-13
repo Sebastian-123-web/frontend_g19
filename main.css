@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /* VALORES GLOBALES */
@@ -27,7 +28,6 @@ body{
 }
 
 .banner{
-    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -64,4 +64,95 @@ body{
 .img-profile{
     width: 300px;
     border-radius: 50%;
+}
+
+/* SECTION WORKS */
+.section-works{
+    max-width: 800px;
+    margin: auto;
+}
+
+.card{
+    display: flex;
+}
+
+.card div img{
+    width: 250px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 5px;
+    border: solid 2px;
+    box-shadow: 0 15px 25px;
+}
+
+.text-works{
+    font-size: 1em;
+    margin-bottom: 30px;
+    font-weight: 300;
+}
+
+.container-detail{
+    margin-left: 30px;
+}
+.container-detail p{
+    margin-top: 20px;
+    width: 100%;
+}
+.label-dark{
+    background-color: #142850;
+    color: #fff;
+    border-radius: 16px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.text-light{
+    color: #8695a4;
+}
+
+hr{
+    height: 0.5px;
+    background-color: #ff6464;
+    border: 0.5px solid #ff6464;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.link-portafolio{
+    color: #000;
+    text-decoration: none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    border: solid 1px gray;
+    border: 10px;
+}
+
+/* MEDIA SCREEN */
+@media screen and ( max-width:400px ) {
+    .banner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+    .title{
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+        margin: 10px;
+    }
+    .resume{
+        margin: 0 auto;
+    }
+    .img-profile{
+        width: 200px;
+        border-radius: 50%;
+    }
 }
