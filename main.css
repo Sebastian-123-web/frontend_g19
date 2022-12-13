@@ -131,7 +131,6 @@ hr{
 .footer{
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
     padding: 20px;
     border: solid 1px gray;
     border: 10px;
@@ -165,10 +164,16 @@ hr{
         margin: 20px;
     }
 
+    hr{
+        width: 90%;
+        margin: 0 auto;
+    }
+
     .section-works{
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding-top: 20px;
     }
     .section-works h4{
         font-size: 30px;
@@ -190,10 +195,10 @@ hr{
     .container-detail{
         margin: 0;
     }
-    .container-detail p{
-        margin: 0 0 15px 0;
-    }
     .container-detail a h2{
-        margin-bottom: 15px;
+        margin-bottom: 10px;
+    }
+    .container-detail p{
+        margin: 0 0 10px 0;
     }
 }
