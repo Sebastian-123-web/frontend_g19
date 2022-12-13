@@ -150,9 +150,13 @@ hr{
     }
     .resume{
         margin: 0 auto;
+        font-size: 20px;
     }
     .img-profile{
         width: 200px;
         border-radius: 50%;
+    }
+    .btn-primary{
+        margin: 20px;
     }
 }
