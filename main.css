@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -6,36 +7,57 @@
 
 /* VALORES GLOBALES */
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #EDEDED;
 }
+.w-1024{
+    width: 100%;
+    max-width: 1024px;
+}
 
+/* HEADER */
 .header{
     display: flex;
-    justify-content: space-between;
-    background-color: #FF8787;
+    justify-content: center;
+    background-color: #1B1B2F;
+    color: #fff;
 }
-.header span{
-    margin: auto 0;
+.navegation{
+    display: flex;
+    justify-content: space-between;
+    padding: 2.5rem 0;
 }
 .nav ul{
-    display: flex;
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 4rem;
     list-style: none;
 }
-.nav ul li{
-    padding: 15px;
-}
 .nav ul li a{
+    color: #fff;
     text-decoration: none;
-    color: #000;
-    font-weight: 600;
+    padding: 12px 20px;
+    border-radius: 15px;
+}
+.nav ul li a:hover{
+    background-color: #0f0f0f;
+}
+.nav ul li a:active{
+    background-color: #000;
 }
 
+/* BANNER */
+.main{
+    padding: 50px 0;
+}
 .banner{
     display: flex;
-    align-items: center;
     justify-content: center;
-    padding-top: 4rem;
+    align-items: center;
+}
+.banner-info{
+    display: flex;
+    justify-content: space-between;
 }
 
 .title{
@@ -45,8 +67,7 @@ body{
 .resume{
     width: 45%;
     font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 25px;
+    margin: 0;
 }
 
 .btn-primary{
