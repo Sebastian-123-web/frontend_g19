@@ -20,9 +20,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #3B185F;
+    background-color: #150839;
     color: #fff;
-    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );
+    /*background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );*/
 }
 .navegation{
     display: flex;
