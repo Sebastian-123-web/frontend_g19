@@ -9,10 +9,14 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #EDEDED;
+    background-image: url("./src/FONDO_FINAL_4_page-0001.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-.w-1024{
+.w-1200{
     width: 100%;
-    max-width: 1024px;
+    max-width: 1200px;
 }
 .title{
     font-size: 3rem;
@@ -29,15 +33,13 @@ body{
     margin-bottom: 1rem;
 }
 
+
 /* HEADER */
 .header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("./src/FONDO2.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: #000;
     /*background-color: #0E0B3B;*/
     color: #fff;
     /*background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );*/
@@ -76,6 +78,9 @@ body{
 /* BANNER */
 .main{
     padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 .banner{
     display: flex;
@@ -125,67 +130,123 @@ body{
 
 /* SECTION WORKS */
 .section-works{
-    max-width: 800px;
-    margin: auto;
-}
-
-.project{
-    display: flex;
-}
-
-.project div img{
-    width: 250px;
-    height: 190px;
-    object-fit: cover;
-    border-radius: 10px;
-    margin: 5px;
-    border: solid 2px;
-    box-shadow: 0 15px 25px;
+    
 }
 
 .text-works{
-    font-size: 1em;
-    margin-bottom: 30px;
-    font-weight: 300;
+    font-size: 3em;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.projects{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 100px;
+}
+/* VISTA DE UN PROYECTO */
+.project{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 500px;
+    height: 215px;
+}
+.project-img{
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    overflow: hidden;
+}
+.project-img a img{
+    width: 450px;
+    height: 100%;
 }
 
-.container-detail{
-    margin-left: 30px;
+.project-card{
+    width: 300px;
+    border-radius: 25px;
+    position: absolute;
+    right: 0;
+    height: 100%;
+    padding: 25px;
 }
-.container-detail p{
-    margin-top: 20px;
+.bg-green{background-color: #BAEF5A;}
+.bg-orange{background-color: #FF8B13;}
+.bg-red{background-color: #ee5674;}
+.bg-lightblue{background-color: #2DCDDF;}
+.bg-yellow{background-color: #FFB100;}
+.bg-pink{background-color: #FEA1BF;}
+.bg-color{background-color: #F8F988;}
+.bg-color2{background-color: #C147E9;}
+
+.project-card-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.project-card-title{
+    font-size: 0.8em;
+}
+.project-card-title a{
+    text-decoration: none;
+    color: #000;
+}
+.project-card-body p{
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+.icons-tec{
+    display: flex;
+    flex-direction: column;
+}
+.icon-tec{
+    width: 20px;
+    margin-right: 10px;
+}
+.icons-tec h4{
+    margin-bottom: 10px;
+}
+.tecnologias{
+    display: flex;
+    flex-direction: row;
+}
+.img-porcentaje{
+    display: flex;
+    align-items: center;
+}
+.bar{
     width: 100%;
+    height: 10px;
+    background-color: #fff;
+    border-radius: 25px;
+    margin-right: 10px;
 }
+.bar-progress{
+    height: 10px;
+    background-color: #781291;
+    border-radius: 25px;
+}
+.p25{width: 25%;}
+.p35{width: 35%;}
+.p45{width: 45%;}
+.p50{width: 50%;}
+.p75{width: 75%;}
+.p90{width: 90%;}
+
 .label-dark{
     background-color: #142850;
     color: #fff;
-    border-radius: 16px;
-    padding: 5px 10px;
-    font-weight: bold;
-}
-
-.text-light{
-    color: #8695a4;
-}
-
-hr{
-    height: 0.5px;
-    background-color: #ff6464;
-    border: 0.5px solid #ff6464;
-    margin-top: 10px;
-    margin-bottom: 20px;
-}
-.link-portafolio{
-    color: #000;
-    text-decoration: none;
-}
-
-.footer{
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-    border: solid 1px gray;
-    border: 10px;
+    text-align: center;
+    width: 40px;
+    height: 25px;
+    border-radius: 25px;
+    padding: 3px;
+    font-weight: 400;
+    font-size: 0.8em;
 }
 
 /* MEDIA SCREEN */
