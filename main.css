@@ -40,7 +40,7 @@ body{
     background-size: cover;
     /*background-color: #0E0B3B;*/
     color: #fff;
-    background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );
+    /*background-image: radial-gradient( circle farthest-corner at 83.7% 4.3%,  rgba(173,0,171,1) 0%, rgba(15,51,92,1) 90% );*/
 }
 .navegation{
     display: flex;
