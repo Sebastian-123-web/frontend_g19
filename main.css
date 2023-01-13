@@ -275,5 +275,7 @@ body{
 
 /* MEDIA SCREEN */
 @media screen and ( max-width:600px ) {
-
+    .projects{
+          grid-template-columns: 100%;
+    }
 }
