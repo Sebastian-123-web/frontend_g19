@@ -149,6 +149,7 @@ body{
     display: grid;
     grid-template-columns: auto auto;
     gap: 100px;
+    justify-content: center;
 }
 /* VISTA DE UN PROYECTO */
 .project{
