@@ -10,5 +10,7 @@ menuBurger.onclick = function(){
 closeBurger.onclick = function(){
     nevagacion.style.display = "none";
     closeBurger.style.display = "none";
+    nevagacion.style.justifyContent = "center";
+    nevagacion.style.alignItems = "center"
     console.log(screen.width)
 }

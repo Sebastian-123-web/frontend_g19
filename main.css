@@ -107,9 +107,10 @@ ul li a:active{
 
 
 .resume{
-    width: 45%;
+    width: 100%;
     font-weight: 300;
     margin: 0;
+    margin-bottom: 15px;
 }
 
 .btn-primary{
@@ -377,6 +378,7 @@ ul li a:active{
     }
     .close-burger{
         display: none;
+        margin-left: 70px;
     }
 
     .banner-info{
