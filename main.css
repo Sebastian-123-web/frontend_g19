@@ -334,6 +334,67 @@ ul li a:active{
     background-color: #42BC51;
 }
 
+/* CONTACTO */
+.contact{
+    background-color: #401458;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form input,.contact-form textarea {
+    width: 80%;
+    padding: 15px 30px;
+    border-radius: 14px;
+    border: 2px solid #fff;
+    color: #07143e;
+    margin-bottom: 30px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.contact-form .btn-send{
+    background-color: #fec859;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1em;
+    width: 80%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 14px;
+}
+
+.about{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.about-info{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 90px;
+    align-items: center;
+
+}
+.m-0{
+    margin: 0;
+}
+.about-i{
+    padding: 20px;
+    color: #07143e;
+    /*background-color: #43b5a0;
+    border-radius: 15px;
+    */
+}
+.foto-perfil-about{
+    width: 250px;
+    border-radius: 50%;
+}
+
 
 .bg-green{background-color: #BAEF5A;}
 .bg-orange{background-color: #FF8B13;}
@@ -343,6 +404,13 @@ ul li a:active{
 .bg-pink{background-color: #FEA1BF;}
 .bg-color{background-color: #43b5a0;}
 .bg-color2{background-color: #C147E9;}
+
+.text-white{
+    color: #fff;
+}
+
+
+
 
 /* MEDIA SCREEN */
 @media screen and ( max-width:600px ) {
