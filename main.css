@@ -150,6 +150,7 @@ body{
     grid-template-columns: auto auto;
     gap: 100px;
     justify-content: center;
+    margin-bottom: 70px;
 }
 /* VISTA DE UN PROYECTO */
 .project{
@@ -214,6 +215,8 @@ body{
 .project-card-body p{
     font-size: 0.9em;
     margin-bottom: 10px;
+    color: #3c4870;
+    cursor: default;
 }
 .icons-tec{
     display: flex;
@@ -264,6 +267,69 @@ body{
     font-weight: 400;
     font-size: 0.8em;
 }
+
+.footer{
+    background-color: #07143e;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-licks{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 200px;
+    row-gap: 50px;
+}
+.footer-licks a{
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.footer-licks a ion-icon{
+    font-size: 2em;
+}
+.footer-copyrigth{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1024px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+.footer-copyrigth h2,.footer-copyrigth span{
+    color: rgba(170, 170, 170, 0.596);
+    font-size: 1em;
+}
+
+.fb{color: #0B86EE;transition: 0.5s;}
+.fb:hover{
+    border-radius: 25px;
+    color: #07143e;
+    background-color: #0B86EE;
+}
+.github{color: #FFFFFF;transition: 0.5s;}
+.github:hover{
+    border-radius: 25px;
+    color: #07143e;
+    background-color: #fff;
+}
+.insta{color: #F2009E;transition: 0.5s;}
+.insta:hover{
+    border-radius: 8px;
+    color: #07143e;
+    background-color: #F2009E;
+}
+.wa{color: #42BC51;transition: 0.5s;}
+.wa:hover{
+    border-radius: 25px;
+    color: #07143e;
+    background-color: #42BC51;
+}
+
 
 .bg-green{background-color: #BAEF5A;}
 .bg-orange{background-color: #FF8B13;}
