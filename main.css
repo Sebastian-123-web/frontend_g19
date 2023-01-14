@@ -185,17 +185,17 @@ body{
     transition: 0.4s;
 }
 .project-card-yellow:hover{
-    -webkit-box-shadow: 0px 0px 0px 4px rgba(255,177,0,1);
-    -moz-box-shadow: 0px 0px 0px 4px rgba(255,177,0,1);
-    box-shadow: 0px 0px 0px 4px rgba(255,177,0,1);
+    -webkit-box-shadow: 0px 0px 0px 4px #fec859;
+    -moz-box-shadow: 0px 0px 0px 4px #fec859;
+    box-shadow: 0px 0px 0px 4px #fec859;
 }
 .project-card-color{
     transition: 0.4s;
 }
 .project-card-color:hover{
-    -webkit-box-shadow: 0px 0px 0px 4px rgba(248,249,136,1);
-    -moz-box-shadow: 0px 0px 0px 4px rgba(248,249,136,1);
-    box-shadow: 0px 0px 0px 4px rgba(248,249,136,1);
+    -webkit-box-shadow: 0px 0px 0px 4px #43b5a0;
+    -moz-box-shadow: 0px 0px 0px 4px #43b5a0;
+    box-shadow: 0px 0px 0px 4px #43b5a0;
 }
 
 .project-card-title{
@@ -269,9 +269,9 @@ body{
 .bg-orange{background-color: #FF8B13;}
 .bg-red{background-color: #ee5674;}
 .bg-lightblue{background-color: #2DCDDF;}
-.bg-yellow{background-color: #FFB100;}
+.bg-yellow{background-color: #fec859;}
 .bg-pink{background-color: #FEA1BF;}
-.bg-color{background-color: #F8F988;}
+.bg-color{background-color: #43b5a0;}
 .bg-color2{background-color: #C147E9;}
 
 /* MEDIA SCREEN */
