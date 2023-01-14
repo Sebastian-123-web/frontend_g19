@@ -342,7 +342,54 @@ body{
 
 /* MEDIA SCREEN */
 @media screen and ( max-width:600px ) {
+
+    .nav ul{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    .banner-info{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+    .img-profile{
+        width: 60%;
+        justify-content: center;
+        margin: 20px auto;
+    }
+
     .projects{
-          grid-template-columns: 100%;
+          grid-template-columns: auto;
+          justify-content: center;
+          align-items: center;
+    }
+    .project{
+        width: 300px;
+        height: 400px;
+    }
+    .project-img{
+        position: absolute;
+        top: 0;
+        width: 300px;
+        border-radius: 25px 25px 0 0;
+    }
+    .project-card{
+        position: absolute;
+        height: 215px;
+        left: 0;
+        bottom: 0;
+    }
+
+    .footer-licks{
+        grid-template-columns: auto auto;
+        gap: 50px;
+    }
+    .footer-copyrigth{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
