@@ -521,5 +521,9 @@ ul li a:active{
     .about-info{
         grid-template-columns: auto;
         justify-content: center;
+        gap: 0;
+    }
+    .photo-perfil{
+        margin: auto;
     }
 }
