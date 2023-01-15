@@ -436,7 +436,9 @@ ul li a:active{
 
 /* MEDIA SCREEN */
 @media screen and ( max-width:600px ) {
-
+    h4[id]{
+        scroll-margin-top: 70px;
+    }
     .navegation{
         align-items: center;
         position: relative;
