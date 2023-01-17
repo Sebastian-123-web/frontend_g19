@@ -11,10 +11,14 @@ menuBurger.onclick = function(){
 }
 
 const closeA = () => {
+    const pageWidth  = document.documentElement.scrollWidth;
+    if( pageWidth > 600 ){
+        return
+    }
     nevagacion.style.display = "none";
     closeBurger.style.display = "none";
     nevagacion.style.justifyContent = "center";
-    nevagacion.style.alignItems = "center"
+    nevagacion.style.alignItems = "center";
 }
 
 closeBurger.onclick = closeA;
