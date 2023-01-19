@@ -57,7 +57,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("./src/fondo-v1.1.14.png");
+    background-image: url("./src/fondo-v1.1.18.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -443,6 +443,9 @@ ul li a:active{
         align-items: center;
         position: relative;
         margin: 0;
+        padding: 20px 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
     ul{
         display: none;
@@ -463,15 +466,21 @@ ul li a:active{
     ul li{
         margin-bottom: 50px;
     }
+    .header{
+        background-image: url("./src/fondo-v1.1.19.jpg");
+    }
+    .title{
+        font-size: 2.6rem;
+        font-weight: 500;
+    }
     .menu-burger, .close-burger{
         display: block;
         font-size: 2.5em;
         cursor: pointer;
-        margin-right: 30px;
     }
     .close-burger{
         display: none;
-        margin-left: 70px;
+        margin-left: 10px;
     }
 
     .contact-form .btn-send{
