@@ -57,7 +57,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url("./src/fondo-v1.1.18.jpg");
+    background-image: url("./src/fondo-v1.1.19d.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -467,7 +467,7 @@ ul li a:active{
         margin-bottom: 50px;
     }
     .header{
-        background-image: url("./src/fondo-v1.1.19.jpg");
+        background-image: url("./src/fondo-v1.1.19m.jpg");
     }
     .title{
         font-size: 2.6rem;
